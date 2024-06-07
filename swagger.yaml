@@ -30,7 +30,7 @@ paths:
     put:
       tags:
         - Tablas
-      summary: Editar un registro existente
+      summary: Editar un registro existentes
       description: Actualiza un registro en la Base de Datos especificando la tabla y el campo a actualizar.
       operationId: updateRecord
       parameters:
