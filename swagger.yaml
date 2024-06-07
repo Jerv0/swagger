@@ -97,7 +97,7 @@ paths:
           description: Entrada inválida
         '422':
           description: Excepción de validación
-  ?table={nombre_tabla}:
+  /?table={nombre_tabla}:
     get:
       tags:
         - Tablas
